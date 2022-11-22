@@ -1,0 +1,41 @@
+{
+    "station" : [
+        {
+            "station_id" : 1,
+            "station" : "Total",
+            "mappedBatteries": [{}],
+            "timestamp": 4255266627
+        }
+    ],
+    
+    "battery" : [
+        {
+            "battery_id" : 1,
+            "serial_number" : "167GHT",
+            "availability": true,
+            "station_id": 1,
+            "rider_id": 1,
+            "timestamp": 4255266627
+        }
+    ],
+    
+    "riders" : [
+        {
+            "rider_id": 1,
+            "name" : "Rion Reel",
+            "timestamp": 4255266627
+        }
+    ],
+    
+    "battery_swap" : [
+        {
+            "swap_id" : 1,
+            "ernergyConsumed": 400,
+            "kmsCovered": 40,
+            "rider_id" : "1",
+            "battery_id": "1",
+            "timestamp": 4255266627
+        }
+    ]
+    }
+        
