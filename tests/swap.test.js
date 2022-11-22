@@ -33,7 +33,7 @@ describe('Swaps', () => {
       it('it should POST a swap ', async() => {
         let swap = {
           currentEnergyReading: 400,
-          currentMillage: 20,
+          currentMileage: 20,
           battery_id: "637b607d69202c956c837ef3",
           rider_id: "637b5e2a6b16702e3e7b9e8d"
           }
