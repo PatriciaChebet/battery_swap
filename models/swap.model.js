@@ -6,7 +6,7 @@ const Schema = mongoose.Schema;
 //With this data we should be able to calculate the energy consumed and kilometers covered by a rider
 const swapSchema = new Schema({
     currentEnergyReading: { type: Number, required: true },
-    currentMillage: { type: Number, required: true },
+    currentMileage: { type: Number, required: true },
     battery_id: { type: String, required: true },
     rider_id: { type: String, required: true }
 },
